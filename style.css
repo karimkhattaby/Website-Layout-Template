@@ -57,7 +57,7 @@ a {
     height: 50vh;
 }
 
-/* Grid */
+/* GRID */
 .grid-wrapper {
     display: grid;
     gap: 20px;
@@ -72,6 +72,12 @@ a {
 
 .box > img {
     width: 100%;
+}
+
+
+/* FOOTER */
+footer {
+    text-align: center;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
