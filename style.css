@@ -22,12 +22,19 @@ body {
 }
 
 /* NAV */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .main-nav {
     display: flex;
     list-style: none;
     font-size: 0.7em;
     margin: 0;
 }
+
 
 @media only screen and (max-width: 600px) {
     .main-nav {
@@ -54,7 +61,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 70vh;
 }
 
 .cover {
